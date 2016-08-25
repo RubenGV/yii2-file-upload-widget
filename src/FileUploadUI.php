@@ -59,6 +59,10 @@ class FileUploadUI extends BaseUpload
      */
     public $galleryTemplateView = 'gallery';
 
+    /**
+     * @var array buttons to render in the form
+     */
+    public $buttons = ["start", "cancel", "delete"];
 
     /**
      * @inheritdoc
